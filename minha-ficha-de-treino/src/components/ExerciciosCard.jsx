@@ -20,6 +20,7 @@ function ExerciciosCard({ nome, descricao = '', meta, ativo = true, diasFeitos =
           Remover
         </button>
       )}
+
   
    </div>
  )
