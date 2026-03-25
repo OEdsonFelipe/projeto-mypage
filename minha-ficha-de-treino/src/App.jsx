@@ -9,18 +9,16 @@ function App() {
   return (
     <div>
       <Header />
-      <BemVindo nomeUsuario="Ficha de Treino" totalHabitos={4} />
-      
-      <SecaoHabitos titulo="Meus Exercicios">
-        <ExerciciosList />
-      </SecaoHabitos>
-
-      <h1>Minha Ficha de Treino</h1>
-      <p>Tenha a sua ficha de treino organizada e eficiente!</p>
-
+      <main>
+        <BemVindo nomeUsuario="Ficha de Treino" totalHabitos={4} />
+        
+        <SecaoHabitos titulo="Meus Exercicios">
+          <ExerciciosList />
+        </SecaoHabitos>
+      </main>
       <Footer />
     </div>
   )
 }
 
-export default App
+export default App;
